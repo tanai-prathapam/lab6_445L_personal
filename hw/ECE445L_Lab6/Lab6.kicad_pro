@@ -783,7 +783,7 @@
         "uuid": "69b823fd-c065-40ff-9bb9-c5835555f3eb"
       }
     ],
-    "used_designators": "J1-2,J6-7",
+    "used_designators": "IC1,J1-2,J6-7",
     "variants": []
   },
   "sheets": [
