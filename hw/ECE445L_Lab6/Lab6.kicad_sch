@@ -1789,215 +1789,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECE445L:Header_4"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Header_4"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ECE445L:PinHeader_1x04_P2.54mm_Vertical"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Header, 4-pin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Header"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Header_4_0_0"
-				(circle
-					(center 1.905 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Header_4_1_0"
-				(circle
-					(center 1.905 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.905 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Header_4_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ECE445L:JST1.25"
 			(pin_names
 				(offset 1.016)
@@ -6105,6 +5896,14 @@
 		(at 38.1 143.51)
 		(uuid "c475cbb5-6db7-4d31-8533-4dde5d687f28")
 	)
+	(no_connect
+		(at 248.92 73.66)
+		(uuid "d688355c-c7a8-4c42-b198-3ac1797b281c")
+	)
+	(no_connect
+		(at 156.21 55.88)
+		(uuid "ee0f87a4-cfd3-4f12-887d-74f19e910e7e")
+	)
 	(wire
 		(pts
 			(xy 87.63 154.94) (xy 86.36 154.94)
@@ -6397,16 +6196,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 106.045) (xy 145.415 106.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22a0fcba-8654-46af-818e-27b058c03fee")
-	)
-	(wire
-		(pts
 			(xy 119.38 59.69) (xy 119.38 60.96)
 		)
 		(stroke
@@ -6554,16 +6343,6 @@
 			(type default)
 		)
 		(uuid "3ddf01f4-37bc-4ff8-ba76-792ddbbc3d57")
-	)
-	(wire
-		(pts
-			(xy 145.415 100.965) (xy 140.335 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd4df64-0e58-4fea-a731-2b2fd845fb19")
 	)
 	(wire
 		(pts
@@ -6977,16 +6756,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 108.585) (xy 145.415 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702265dc-d18e-4386-bbf1-c304faa3d7a0")
-	)
-	(wire
-		(pts
 			(xy 57.15 48.26) (xy 60.325 48.26)
 		)
 		(stroke
@@ -7247,16 +7016,6 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 103.505) (xy 132.715 103.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f60488-2bbf-4fd5-b8ac-2696e8842696")
-	)
-	(wire
-		(pts
 			(xy 96.52 179.07) (xy 96.52 180.34)
 		)
 		(stroke
@@ -7264,16 +7023,6 @@
 			(type default)
 		)
 		(uuid "a2014731-fe0f-44cf-baff-d4d302d8f4cf")
-	)
-	(wire
-		(pts
-			(xy 132.715 103.505) (xy 132.715 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29d7ea9-8c68-486e-b139-9f79e9cbda19")
 	)
 	(wire
 		(pts
@@ -7524,16 +7273,6 @@
 			(type default)
 		)
 		(uuid "c1d4cf6a-3905-49c7-a581-a49cbec07ee3")
-	)
-	(wire
-		(pts
-			(xy 140.335 100.965) (xy 140.335 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c7efe6-a778-4891-9e51-26c3e47eccf1")
 	)
 	(wire
 		(pts
@@ -8119,30 +7858,6 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 144.145 106.045 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0692a374-a40f-426c-823d-f2ac1fd1d461")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.9308 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "PA13{slash}TFT_D{slash}C"
 		(shape passive)
 		(at 41.91 86.36 180)
@@ -8228,30 +7943,6 @@
 		(uuid "184e6b2b-ba68-4696-8986-d36ac6e077e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.9776 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 144.145 108.585 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f6f38c0-770a-4b74-896b-1185b7dfa808")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2936 108.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10963,7 +10654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02"
 			(at 141.9352 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11045,7 +10736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 115.2652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11779,7 +11470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm"
 			(at 155.9052 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12078,7 +11769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-14N"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 120.65 221.92 0)
 			(hide yes)
 			(show_name no)
@@ -12513,7 +12204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "ECE445L:SOIC127P600X175-8N"
 			(at 113.03 260.02 0)
 			(hide yes)
 			(show_name no)
@@ -12698,7 +12389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:JST-1x02_1.25mm"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
 			(at 59.055 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12824,84 +12515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.715 104.775 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58f8874b-4957-4ff0-b43d-241c462c0f42")
-		(property "Reference" "#PWR011"
-			(at 132.715 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.715 109.855 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.715 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.715 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.715 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70be2d46-9ad1-460b-967f-c33a92f125e0")
-		)
-		(instances
-			(project "Lab6"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ECE445L:C")
 		(at 101.6 115.57 0)
 		(unit 1)
@@ -12935,7 +12548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02"
 			(at 102.5652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13251,7 +12864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 207.3402 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -13333,7 +12946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTA20432015CPB103"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 111.76 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -13465,7 +13078,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6b42a3cd-c0a1-40e2-a993-9dfb484207a9")
 		(property "Reference" "C7"
 			(at 134.62 74.9299 0)
@@ -13479,7 +13091,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 134.62 77.4699 0)
+			(at 134.62 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13489,7 +13101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02"
 			(at 131.7752 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13977,7 +13589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 222.5802 118.745 0)
 			(hide yes)
 			(show_name no)
@@ -14289,7 +13901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:VSSOP_0.5mm_32pin_handsolder"
+		(property "Footprint" "ECE445L:generic_VSSOP_0.5mm"
 			(at 195.58 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14422,94 +14034,6 @@
 			(project "Lab6"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE445L:Header_4")
-		(at 150.495 106.045 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85c7ac3c-266a-4c5d-9d9c-ad71fb261488")
-		(property "Reference" "J4"
-			(at 151.003 104.775 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Debugger"
-			(at 154.305 103.5049 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ECE445L:PinHeader_1x04_P2.54mm_Vertical"
-			(at 150.495 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150.495 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Header, 4-pin"
-			(at 150.495 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c77707ea-7836-4b56-a09e-2307f85e9562")
-		)
-		(pin "1"
-			(uuid "d64316ea-88ca-4a77-a461-8a677da2395e")
-		)
-		(pin "3"
-			(uuid "b90109f0-b3ec-4bf5-89bf-c7697d238d4f")
-		)
-		(pin "4"
-			(uuid "eccd804c-3d14-4b02-a7b2-9659c2baf130")
-		)
-		(instances
-			(project "Lab6"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15168,7 +14692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02"
 			(at 97.4852 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -15248,7 +14772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTA20432015CPB103"
+		(property "Footprint" "ECE445L:PTA20432015CPB103"
 			(at 49.53 213.03 0)
 			(hide yes)
 			(show_name no)
@@ -15946,7 +15470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 			(at 110.1852 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16267,7 +15791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PTA20432015CPB103"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 67.31 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16859,83 +16383,6 @@
 			(project "Lab6"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 140.335 99.695 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1f630a6-7acd-4e5a-9fce-0738cfc56574")
-		(property "Reference" "#PWR07"
-			(at 140.335 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 143.637 98.425 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.335 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.335 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 140.335 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "271f1b60-3275-431c-a934-cd5b90fb0009")
-		)
-		(instances
-			(project "Lab6"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
